@@ -26,6 +26,18 @@
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
 }
 
+.navbar__menu{
+    border: none;
+    background-color: transparent;
+}
+.navbar-toggler:hover{
+    box-shadow: none;
+}
+
+.navbar__menu img{
+    width: 46px;
+}
+
 .navbar__cart {
     border: none;
     background-color: transparent;
