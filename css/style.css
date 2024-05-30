@@ -111,18 +111,6 @@ body{
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     display: inline-block;
 }
-*/
-/*
-.main-index-cointainer{
-    position: relative;
-    width: 100%;
-    height: 969px;
-    left: 50%;
-    display: inline-block;
-    background-size: cover; /* Ajusta la imagen para que cubra todo el contenedor */
-    background-position: center; /* Centra la imagen */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
-}*/
 .cat-main-img{
     position: relative;
 }
@@ -135,13 +123,13 @@ body{
     margin: 50px;
     left: 282px;
     bottom: 250px;
+    background-color: transparent;
 }
 .button{
-    /* 247x72 */
     top: 620px;
     left: 335px;
     position: absolute;
-    background-color: rgb(218, 174, 141); /* */
+    background-color: rgb(218, 174, 141); 
     border-radius: 4px;
     color: white;
     padding: 25px 24px;
@@ -154,7 +142,7 @@ body{
     color: white;
     font-size: 30px;
     font-weight: 350;
-
+    background-color: transparent;
 }
 .mid-index-background{
     width: 100%;
@@ -169,8 +157,6 @@ body{
 .mid-index-container{
     display: flex;
     gap: 20px; /* Espacio entre los divs */
-
-
 }
 .overlay-h2{
     top: 45px;
@@ -182,13 +168,17 @@ body{
     font-size: 50px;
     font-family: "Josefin Sans";
     color: white;
-
+    background-color: transparent;
+}
+.overlay-h2, h2{
+    background-color: transparent;
 }
 .overlay-h2-p{
     position: relative;
     font-size: 26px;
     font-weight: 350;
     color: white;
+    background-color: transparent;
 }
 /* Estilo de cada caja que contiene una imagen y un pie de foto */
 .box {
@@ -204,6 +194,7 @@ body{
 }
 
 /* Imagen dentro de cada caja */
+
 .box img {
     position: absolute;
     object-fit: cover;
@@ -221,6 +212,7 @@ body{
     font-size: 28px;
     color: white;
     z-index: 0;
+    background-color: transparent;
 }
 .p-box-gatitos{
     margin-bottom: 260px;
@@ -228,6 +220,7 @@ body{
     font-size: 28px;
     color: white;
     z-index: 0;
+    background-color: transparent;
 }
 .p-box-adopción{
     margin-top: 270px;
@@ -235,6 +228,7 @@ body{
     font-size: 28px;
     color: white;
     z-index: 0;
+    background-color: transparent;
 }
 
 @media (min-width:1024px) {
