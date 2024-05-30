@@ -98,6 +98,144 @@ body{
     color: var(--color-coral);
 }
 
+/*--- Inicio SECTION ---*/
+
+.main-index{
+    position: relative; /* Ajusta la posición de los elementos hijos */
+    width: 100%;
+    height: 869px;
+    top: 135px;
+    background-image: url("../imgs/cat-main.jpg"); /* Añade la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para que cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    display: inline-block;
+}
+*/
+/*
+.main-index-cointainer{
+    position: relative;
+    width: 100%;
+    height: 969px;
+    left: 50%;
+    display: inline-block;
+    background-size: cover; /* Ajusta la imagen para que cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}*/
+.cat-main-img{
+    position: relative;
+}
+.overlay-h1{
+    position: absolute;
+    text-align: left;
+    font-size: 50px;
+    font-family: "Josefin Sans";
+    color: white;
+    margin: 50px;
+    left: 282px;
+    bottom: 250px;
+}
+.button{
+    /* 247x72 */
+    top: 620px;
+    left: 335px;
+    position: absolute;
+    background-color: rgb(218, 174, 141); /* */
+    border-radius: 4px;
+    color: white;
+    padding: 25px 24px;
+    display: inline-block;
+    border: none;
+    box-shadow: 0;
+}
+.button-about-us{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 350;
+
+}
+.mid-index-background{
+    width: 100%;
+    height: 800px;
+    top: 126px;
+    background:linear-gradient(to bottom, rgb(35, 35, 35) 50%, white 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.mid-index-container{
+    display: flex;
+    gap: 20px; /* Espacio entre los divs */
+
+
+}
+.overlay-h2{
+    top: 45px;
+    margin: 0px;
+    left: 450px;
+    bottom: 500px;
+    position: absolute;
+    text-align: left;
+    font-size: 50px;
+    font-family: "Josefin Sans";
+    color: white;
+
+}
+.overlay-h2-p{
+    position: relative;
+    font-size: 26px;
+    font-weight: 350;
+    color: white;
+}
+/* Estilo de cada caja que contiene una imagen y un pie de foto */
+.box {
+    width: 320px;
+    height: 320px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0px 10px 15px rgba(0, 0, 0, 0.1); /* Sombra para mejor visualización */
+    border-radius: 3px;
+}
+
+/* Imagen dentro de cada caja */
+.box img {
+    position: absolute;
+    object-fit: cover;
+    background-size: cover;
+    width: 320px;
+    height: 320px;
+    opacity: 92%;
+    border-radius: 3px;
+}
+
+/* Pie de foto */
+.p-box-café{
+    margin-top: 270px;
+    margin-left: 190px;
+    font-size: 28px;
+    color: white;
+    z-index: 0;
+}
+.p-box-gatitos{
+    margin-bottom: 260px;
+    margin-right: 180px;
+    font-size: 28px;
+    color: white;
+    z-index: 0;
+}
+.p-box-adopción{
+    margin-top: 270px;
+    margin-right: 180px;
+    font-size: 28px;
+    color: white;
+    z-index: 0;
+}
 
 @media (min-width:1024px) {
     .navbar__container {
