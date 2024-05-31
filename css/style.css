@@ -121,13 +121,13 @@ body{
     font-family: "Josefin Sans";
     color: white;
     margin: 50px;
-    left: 282px;
-    bottom: 250px;
+    left: 392px;
+    bottom: 350px;
     background-color: transparent;
 }
 .button{
-    top: 620px;
-    left: 335px;
+    top: 510px;
+    left: 445px;
     position: absolute;
     background-color: rgb(218, 174, 141); 
     border-radius: 4px;
@@ -156,7 +156,8 @@ body{
 }
 .mid-index-container{
     display: flex;
-    gap: 20px; /* Espacio entre los divs */
+    gap: 25px; /* Espacio entre los divs */
+    background-color: transparent;
 }
 .overlay-h2{
     top: 45px;
@@ -195,7 +196,7 @@ body{
 
 /* Imagen dentro de cada caja */
 
-.box img {
+.box img{
     position: absolute;
     object-fit: cover;
     background-size: cover;
@@ -230,6 +231,68 @@ body{
     z-index: 0;
     background-color: transparent;
 }
+
+/*Nuestros Cafés */
+
+.main-index-2{
+    ;
+}
+
+.img-background2{
+    position: relative;
+    height: 800px;
+    width: 100%;
+    top: 0px;
+    background-image: url("../imgs/backgrounds/index-2.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+/* .img-background2, p{
+    background-color: transparent;
+    color: white;
+    font-family: "Josefin Sans";
+    font-size: 26px;
+    font-weight: 350;
+} */
+.overlay-h3{
+    left: 450px;
+    bottom: 20px;
+    position: relative;
+    font-size: 46px;
+    font-weight: 350;
+    color: black;
+    background-color: transparent;
+}
+.overlay-h3-p{
+    top: 120px;
+    left: 550px;
+    position: relative;
+    background-color: transparent;
+    color: white;
+    font-family: "Josefin Sans";
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.boton-carta, .boton-tienda{
+    background-color: rgb(218, 174, 141); 
+    border-radius: 4px;
+    padding: 25px 40px;
+    display: inline-block;
+    border: none;
+    box-shadow: 0;
+}
+.boton-tienda, .boton-carta, a{
+    color: white;
+    text-decoration: none;
+    font-family: "Josefin Sans";
+    font-size: 26px;
+    font-weight: 350;
+    
+}
+
 
 @media (min-width:1024px) {
     .navbar__container {
