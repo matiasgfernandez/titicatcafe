@@ -27,7 +27,7 @@ h1{
 
 .store__filters-container {
     position: relative;
-    background-image: url('/imgs/backgrounds/bg-products.jpg');
+    background-image: url('../imgs/backgrounds/bg-products.jpg');
     background-size: cover;
     background-position: center;
     height: 300px;

@@ -1,0 +1,37 @@
+:root {
+    --primary-bg-color: #f9f9f9;
+    --primary-text-color: #232323;
+    --color-grey-light: #dedede;
+    --color-coral: #daae8d;
+}
+
+main {
+    margin-top: 160px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /*sin justify*/
+    flex-direction: column;
+    padding: 0 1rem;
+}
+
+h1{
+    align-self: flex-start;
+    font-size: 35px;
+}
+
+
+
+
+@media(min-width:768px){
+    main {
+        padding: 0 2rem;
+    }
+}
+
+@media(min-width:1024px){
+    main {
+        padding: 0 8rem;
+    }
+
+}
