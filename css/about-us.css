@@ -90,7 +90,7 @@ h2{
     }
 }
 
-@media(min-width:160px){
+@media(min-width:1600px){
     main {
         padding: 0 18rem;
     }
