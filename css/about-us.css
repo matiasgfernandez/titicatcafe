@@ -10,7 +10,7 @@ main {
     margin-bottom: 20px;
     display: flex;
     align-items: center;
-    justify-content: center; /*sin justify*/
+    justify-content: center;
     flex-direction: column;
     padding: 0 1rem;
 }
@@ -88,5 +88,10 @@ h2{
     main {
         padding: 0 8rem;
     }
+}
 
+@media(min-width:1280px){
+    main {
+        padding: 0 18rem;
+    }
 }
