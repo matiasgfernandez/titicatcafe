@@ -15,13 +15,68 @@ main {
     padding: 0 1rem;
 }
 
+p{
+    font-size: 20px;
+}
+
 h1{
     align-self: flex-start;
     font-size: 35px;
 }
 
+.about-us__adopciones{
+    position: relative;
+}
 
+.about-us__img{
+    position: absolute;
+    right: 0;
+}
 
+.about-us__img img{
+    width: 450px;
+}
+
+h2{
+    margin-top: 50px;
+    font-size: 35px
+}
+
+.about-us__text{
+    position: absolute;
+    background-color: var(--primary-text-color);
+    width: 600px;
+    padding: 30px;
+}
+.about-us__text p{
+    background-color: transparent;
+    color: var(--primary-bg-color);
+}
+
+.about-us__staff{
+    margin-top: 500px;
+    margin-bottom: 20px;
+}
+
+.about-us__staff-img{
+    width: 300px;
+}
+
+.about-us__cards{
+    display: flex;
+    justify-content: center;
+    gap: 0 4rem;
+}
+
+.about-us__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us__icon{
+    width: 40px;
+}
 
 @media(min-width:768px){
     main {
